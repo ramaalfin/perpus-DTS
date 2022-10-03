@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 60px;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+.content .title {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* form laporan */
+.form-laporan{
+  
+}
+
+@media (max-width: 768px) {
+  .content .title {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+}
